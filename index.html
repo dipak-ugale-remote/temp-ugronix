@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Ugronix</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugronix Foundation</title>
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            background: #e67e22;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #d35400;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+        .highlight {
+            color: #e67e22;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-	<h1>Welcome at Ugronix</h1>
+    <header class="animate__animated animate__fadeInDown">
+        <h1>Ugronix Foundation</h1>
+        <p>Serving <span class="highlight">Beggers, Children, Women & The Needy</span></p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <section id="about" class="animate__animated animate__fadeInUp">
+        <h2>About Us</h2>
+        <p>We are a non-profit trust dedicated to helping beggars, homeless children, and women in need. We provide safe shelter, nutritious meals, and essential support. Our mission is to bring hope and dignity back into their lives.</p>
+    </section>
+
+    <section id="services" class="animate__animated animate__fadeInUp animate__delay-1s">
+        <h2>Our Services</h2>
+        <p>We provide:</p>
+        <ul style="list-style:none; padding:0;">
+            <li>🏠 Shelter for the homeless</li>
+            <li>🍲 Nutritious meals every day</li>
+            <li>💊 Limited health-related support</li>
+            <li>📚 Basic education for children</li>
+            <li>🤝 Social support for women</li>
+        </ul>
+        <a href="#contact" class="btn">Get Involved</a>
+    </section>
+
+    <section id="contact" class="animate__animated animate__fadeInUp animate__delay-2s">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@ugronix.org">info@ugronix.org</a></p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+        <p>Address: Aurangabad, Maharashtra, India</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Ugronix Foundation. All Rights Reserved.
+    </footer>
+
+    <!-- Internal JavaScript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("Ugronix Foundation site loaded!");
+        });
+    </script>
 </body>
 </html>
